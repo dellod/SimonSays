@@ -1,10 +1,15 @@
 
 // Sounds
 const blueSound = new Audio("sounds\\blue.mp3")
+blueSound.volume = 0.01
 const greenSound = new Audio("sounds\\green.mp3")
+greenSound.volume = 0.01
 const redSound = new Audio("sounds\\red.mp3")
+redSound.volume = 0.01
 const yellowSound = new Audio("sounds\\yellow.mp3")
+yellowSound.volume = 0.01
 const wrongSound = new Audio("sounds\\wrong.mp3")
+wrongSound.volume = 0.01
 
 // Buttons
 const buttonColours = ["red", "blue", "green", "yellow"];
